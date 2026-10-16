@@ -55,3 +55,35 @@ Abra `index.html` no navegador ou publique como site estático na Vercel (framew
 
 ## Conexões necessárias futuramente
 Supabase para autenticação, dados e multiplayer; Vercel para deploy web; eventualmente serviço de tempo real dedicado. Nunca incluir chaves secretas no frontend.
+
+## Atualização — Passo de polimento visual (15/10/2026)
+- [x] Cidade recebeu praça pavimentada, bancos, canteiros floridos, postes, jardineiras e nuvens animadas.
+- [x] Movimento com corrida (Shift), controles de câmera e interação por proximidade.
+- [x] Colisão com deslizamento por paredes e comando "Destravar".
+- [x] Editor de avatar local com cores, formatos e acessórios.
+- [x] Validação sintática do JavaScript e confirmação de deploy READY na Vercel.
+- [ ] Teste real no navegador de mesa e celular (não verificado automaticamente).
+- [ ] Substituir personagem geométrico por personagem humano estilizado com esqueleto e animações naturais Idle/Walk/Run.
+- [ ] Importar modelos 3D e cenário licenciados para uso comercial (preferir CC0).
+- [ ] Melhorar câmera com colisão física, inércia, zoom e olhar ao redor por toque.
+- [ ] Criar interiores reais das lojas e minijogos jogáveis.
+- [ ] Persistência por conta no Supabase e validação da economia no servidor.
+
+### Referências para assets legais
+- Kenney Mini Characters: https://kenney.nl/assets/mini-characters — licença CC0 segundo o publicador.
+- Kenney Animated Characters: https://kenney.nl/assets/animated-characters-protagonists — licença CC0 segundo o publicador.
+- Kenney Mini Arcade: https://kenney-assets.itch.io/mini-arcade — licença CC0 segundo o publicador.
+
+Não utilizar materiais extraídos de The Sims, Roblox, Habbo ou outros jogos sem autorização. A experiência visual ainda é **protótipo 3D**, não jogo premium final.
+
+### Como testar esta versão
+Abra https://outravida.vercel.app, inicie uma nova vida e personalize um avatar. Teste:
+1. W/S/A/D e setas nas quatro direções; Shift para correr.
+2. Girar a câmera com mouse, zoom pela roda, C para virar ângulo.
+3. Encostar em prédios e deslizar em vez de ficar preso.
+4. Botão "Destravar" para regressar à praça.
+5. Interagir com os locais e observar alterações no saldo, necessidades e histórico.
+6. Atualizar o navegador e conferir continuidade do progresso local.
+7. No celular, tocar no joystick e no botão de interagir.
+
+É necessário navegador com WebGL e acesso à biblioteca Three.js importada via CDN.
